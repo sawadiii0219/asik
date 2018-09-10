@@ -88,14 +88,19 @@
 }
 
 
-
 .wrapper1 {
 opacity:1.0;
-padding :50px;
+
+width:550px;
+height:500px;
+margin:0 auto;
 }
 .wrapper2 {
 opacity:1.0;
-padding :50px;
+width:550px;
+height:500px;
+margin:0 auto;
+
 }
 .wrapper1 :hover{
 opacity:0.5;
@@ -107,12 +112,20 @@ opacity:0.5;
 }
 .video{
   margin-left:50px;
+  width:550px;
+  height:500px;
+  margin:0 auto;
+
+
 
 }
 
 .sentense{
   padding-left: 50px;
+  font-size:500px;
+  margin:0 auto;
 }
 .logo-asik{
   padding-left: 30px;
+  font-size: 100px;
 }
