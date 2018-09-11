@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -73,9 +74,7 @@ a {
   opacity: 1;
 }
 
-.fa {
-  margin-right: 5px;
-}
+
 
 .contents{
   height: 100px;
