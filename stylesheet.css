@@ -15,8 +15,8 @@
   opacity: 0.7;
 }
 .logo-asik img{
-  width:300px;
-margin-left: 345px;
+  width:500px;
+
 }
 .play{
 width:500px;
@@ -98,7 +98,7 @@ margin-bottom: 100px;
 
 text-align: center;
 }
-.wrapper2 {
+.wrapper2 btn{
 opacity:1.0;
 font-size:70px;
 text-align: center;
@@ -109,9 +109,12 @@ text-align: center;
 opacity:0.5;
 }
 
-.wrapper2 :hover{
+.wrapper2 btn:hover{
 opacity:0.5;
 
+}
+.wrapper2 p{
+  font-size:30px;
 }
 
 
