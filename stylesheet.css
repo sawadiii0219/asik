@@ -1,133 +1,94 @@
-.videoBox .play {
-  position: relative;
-  top: 35px;
-  right:300px;
-  opacity: 0.9;
-}
-<!-- hover時処理(おまけ) -->
-.video {
-  -webkit-transition: 0.5s ease-in-out;
-  margin-left: 100px;
-  margin-bottom:
-
-}
-.video:hover {
-  opacity: 0.7;
-}
-.logo-asik img{
-  width:500px;
-  text-align:center;
-  
-
-}
-.play{
-width:500px;
-
-
-
-}
-
-
-
-
-.btn {
-  position: relative;
-  display: inline-block;
-  letter-spacing: 5px;
-  margin-bottom: 70px;
-  text-align: center;
-  text-transform: uppercase;
-  overflow: hidden;
-  z-index: 1;
-  cursor: pointer;
-
-  &:focus {
-    outline: none;
-  }
-}
-
-.btn--primary {
-  color: lightslategray;
-}
-
-.btn--border {
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 10px;
+* {
   box-sizing: border-box;
 }
 
-.btn--animated {
-  transition-property: color;
-  transition-duration: 0.5s;
-
-  &.btn--border.btn--primary {
-    border: 1px solid lightslategray;
-  }
-
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: lightslategray;
-    transform: scaleX(0);
-    transform-origin: 0 50%;
-    transition-property: transform;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-out;
-    z-index: -1;
-  }
-
-  &:hover {
-    color: white;
-
-    &:before {
-      transform: scaleX(1);
-      transition-timing-function: cubic-bezier(0.45, 1.64, 0.47, 0.66);
-    }
-  }
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
 }
 
-
-.wrapper1 {
-opacity:1.0;
-font-size: 70px;
-margin-bottom: 100px;
-
-
-text-align: center;
-}
-.wrapper2 btn{
-opacity:1.0;
-font-size:70px;
-text-align: center;
-
-
-}
-.wrapper1 :hover{
-opacity:0.5;
+a {
+  text-decoration: none;
 }
 
-.wrapper2 btn:hover{
-opacity:0.5;
-
-}
-.wrapper2 p{
-  font-size:30px;
+.clear {
+  clear: left;
 }
 
-
-.sentense{
-  font-size:300px;
-  margin:0 auto;
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 170px 15px;
+  margin: 0 auto;
 }
-.videoBox {
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+
+
   text-align: center;
-  margin-bottom: 300px;
-  margin-left: 300px;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 40px;
+  padding:20px;
+}
+
+.btn-wrapper h1{
+  margin:100px ;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: blue;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: red;
+}
+
+.btn {
+  padding: 40px 30px;
+  color: white;
+  display: inline-block;
+  opacity: 0.5;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.contents{
+  height: 100px;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 500px;
 
 }
 
