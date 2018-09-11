@@ -26,10 +26,14 @@
 
   .btn {
     width: 100%;
+
   }
 
-  .facebook {
+  .dansei {
     margin-bottom: 10px;
+  }
+  .signup{
+    width:50%;
   }
 
   .top-wrapper {
@@ -37,13 +41,8 @@
   }
 
   /* header-rightクラスのdisplayをnoneに指定してください */
-  .header-right{
-    display:none;
-  }
-
-  /* menu-iconクラスのdisplayをblockに指定してください  */
-  .menu-icon{
-    display:block;
+  .logo{
+    width:100%;
   }
 
   .top-wrapper h1 {
